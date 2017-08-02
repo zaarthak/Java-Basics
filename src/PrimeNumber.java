@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * A prime number is a number that is divisible only by itself and 1.
+ *
+ * For example, 2, 5, 7, 19, 31 etc.
+ */
 public class PrimeNumber {
 
     public static void main(String args[]) {

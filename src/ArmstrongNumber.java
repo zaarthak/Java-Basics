@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+/**
+ * An Armstrong number is an n-digit number that is equal to the sum of the nth powers of its digits.
+ *
+ * Example, an Armstrong number of three digits is an integer such that
+ * the sum of the cubes of its digits is equal to the number itself.
+ *
+ * For instance, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
+ */
 public class ArmstrongNumber {
 
     public static void main(String args[]) {
