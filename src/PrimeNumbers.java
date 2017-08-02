@@ -9,7 +9,7 @@ public class PrimeNumbers {
         System.out.print("Enter any number : ");
         int inputNum = scanner.nextInt();
 
-        boolean ifPrime = false;
+        boolean flag = false;
 
         if (inputNum > 1) {
 
@@ -25,17 +25,17 @@ public class PrimeNumbers {
 
                 if (i % j == 0) {
 
-                    ifPrime = true;
+                    flag = true;
                     break;
                 }
             }
 
-            if (!ifPrime) {
+            if (!flag) {
 
                 System.out.println(i);
             }
 
-            ifPrime = false;
+            flag = false;
         }
     }
 }

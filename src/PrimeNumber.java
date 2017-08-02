@@ -9,18 +9,18 @@ public class PrimeNumber {
         System.out.print("Enter any number : ");
         int inputNum = scanner.nextInt();
 
-        boolean ifPrime = false;
+        boolean flag = false;
 
         for (int i = 2 ; i <= inputNum / 2 ; i++) {
 
             if (inputNum % i == 0) {
 
-                ifPrime = true;
+                flag = true;
                 break;
             }
         }
 
-        if (ifPrime) {
+        if (flag) {
 
             System.out.printf("%d is NOT a prime number.", inputNum);
         } else {
